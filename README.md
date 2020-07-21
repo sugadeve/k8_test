@@ -20,11 +20,14 @@ curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/miniku
 2. Install minikube
 
 sudo mkdir -p /usr/local/bin/
+
 sudo install minikube /usr/local/bin/
 
 3. starti minikube using driver virtualbox
    minikube start --driver=<driver_name>
+   
    driver_name=virtualbox
    
 4. check the minikube status
+
    minikube status
