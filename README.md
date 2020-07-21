@@ -35,5 +35,8 @@ sudo install minikube /usr/local/bin/
 
 apply the k8 configs
 ====================
-1. kubectl create -f 
-2. 
+
+1. kubectl create -f nginx-hello-world-deployment.yaml
+
+2. kubectl create -f nginx-hello-world-service.yaml
+
