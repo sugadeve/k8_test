@@ -24,6 +24,7 @@ sudo mkdir -p /usr/local/bin/
 sudo install minikube /usr/local/bin/
 
 3. starti minikube using driver virtualbox
+
    minikube start --driver=<driver_name>
    
    driver_name=virtualbox
