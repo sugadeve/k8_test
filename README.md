@@ -32,3 +32,8 @@ sudo install minikube /usr/local/bin/
 4. check the minikube status
 
    minikube status
+
+apply the k8 configs
+====================
+1. kubectl create -f 
+2. 
